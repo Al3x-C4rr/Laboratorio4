@@ -1,4 +1,4 @@
-public class Video extends Contenido {
+public class Articulo extends Contenido {
     @Override
     public void publicar() {}
     @Override

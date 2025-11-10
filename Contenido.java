@@ -1,7 +1,9 @@
-public interface Contenido {
-    String AgregarTitulo(String titulo);
-    String AgregarDescripcion(String descripcion);
-    int AgregarCapacidad(int capacidad);
-    String TipodeContenido(String tipo);
-    String LinkdelContenido(String link);
+public abstract class Contenido {
+    protected String titulo;
+    protected String descripcion;
+    protected int capacidad;
+    protected String tipo;
+
+    public abstract void publicar();
+    public abstract void visualizar();
 }
